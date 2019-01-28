@@ -52,11 +52,7 @@ p {
     text-align: center;
 }
 
-#shwocase .content {
-    z-index: 9999;
-    filter: blur(0px);
-}
-#showcase {
+#showcase:not(content){
     margin: 0;
     padding: 0;
     width: 100%;
@@ -66,25 +62,18 @@ p {
     background-size: 100%;
     display: block;
     width: 100%;
-    /* filter: blur(3px); */
-}
-#showcase .content img { 
     filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
 }
 #showcase .content:not(img){
     filter: blur(0px)
     z-index: 9999;
-    /* color: #37474F; */
     color:#fff;
 }
-#img {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-  }
-  
+
 
 #showcase p {
     margin-bottom: 3rem;
