@@ -27,7 +27,34 @@ body {
 .grid-3 {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(3, 1fr);
+}
+.box1 { 
+    border: #B0BEC5 1px solid;
+    border-radius: 10px;
+    background-color: #ECEFF1;
+    transition: background 300ms ease-in-out;
+}
+.box1:hover{
+    background: #CFD8DC;
+}
+.box2{
+    border: #B0BEC5 1px solid;
+    border-radius: 10px;
+    background-color: #ECEFF1;
+    transition: background 300ms ease-in-out;
+}
+.box2:hover{
+    background: #CFD8DC;
+}
+.box3{
+    border: #B0BEC5 1px solid;
+    border-radius: 10px;
+    background-color: #ECEFF1;
+    transition: background 300ms ease-in-out;
+}
+.box3:hover{
+    background: #CFD8DC;
 }
 .grid-3 p {
     margin-bottom: 1rem;
