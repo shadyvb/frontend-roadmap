@@ -32,29 +32,29 @@ body {
 .box1 { 
     border: #B0BEC5 1px solid;
     border-radius: 10px;
-    background-color: #ECEFF1;
+    background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
 .box1:hover{
-    background: #CFD8DC;
+    background: #ECEFF1;
 }
 .box2{
     border: #B0BEC5 1px solid;
     border-radius: 10px;
-    background-color: #ECEFF1;
+    background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
 .box2:hover{
-    background: #CFD8DC;
+    background: #ECEFF1;
 }
 .box3{
     border: #B0BEC5 1px solid;
     border-radius: 10px;
-    background-color: #ECEFF1;
+    background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
 .box3:hover{
-    background: #CFD8DC;
+    background: #ECEFF1;
 }
 .grid-3 p {
     margin-bottom: 1rem;
