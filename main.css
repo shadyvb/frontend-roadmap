@@ -30,7 +30,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 .box1 { 
-    border: #B0BEC5 1px solid;
+    border: #B0BEC5 1px ;
     border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
@@ -39,7 +39,7 @@ body {
     background: #ECEFF1;
 }
 .box2{
-    border: #B0BEC5 1px solid;
+    border: #B0BEC5 1px ;
     border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
@@ -48,7 +48,7 @@ body {
     background: #ECEFF1;
 }
 .box3{
-    border: #B0BEC5 1px solid;
+    border: #B0BEC5 1px ;
     border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
