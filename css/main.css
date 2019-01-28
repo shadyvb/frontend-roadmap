@@ -58,20 +58,22 @@ p {
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: url(https://source.unsplash.com/2xEQDxB0ss4) no-repeat 0 -10px;
+    /* background: url(https://source.unsplash.com/2xEQDxB0ss4) no-repeat 0 -10px; */
+    z-index: -1;
     background-size: 100%;
     display: block;
     width: 100%;
-    filter: blur(3px);
+    /* filter: blur(3px);
     -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
-    -ms-filter: blur(3px);
+    -ms-filter: blur(3px); */
 }
 #showcase .content:not(img){
     filter: blur(0px)
-    z-index: 9999;
-    color:#fff;
+    z-index: 1;
+    /* color:#fff; */
+    color:#455A64;
 }
 
 
