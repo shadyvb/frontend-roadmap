@@ -31,7 +31,7 @@ body {
 }
 .box1 { 
     border: #B0BEC5 1px solid;
-    border-radius: 10px;
+    border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
@@ -40,7 +40,7 @@ body {
 }
 .box2{
     border: #B0BEC5 1px solid;
-    border-radius: 10px;
+    border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
@@ -49,7 +49,7 @@ body {
 }
 .box3{
     border: #B0BEC5 1px solid;
-    border-radius: 10px;
+    border-radius: 3%;
     background-color: #f2f2f2;
     transition: background 300ms ease-in-out;
 }
@@ -175,7 +175,7 @@ p {
     padding: 0.5rem 2rem;
     border: 1px #ccc solid;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 30px;
     text-decoration: none;
     color: #000;
     transition: background 300ms ease-in-out;
