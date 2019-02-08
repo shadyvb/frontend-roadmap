@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto|Ubuntu');
 * {
     margin: 0;
     padding: 0;
-    font-family: lato;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    /* font-family: 'Roboto', sans-serif; */
 }
 html {
     scroll-behavior: smooth;
@@ -15,8 +17,6 @@ body {
     grid-auto-rows: minmax(100px, auto);
     /* align-content: center; */
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-
 }
 .mycontainer{
     max-width: 960px;
@@ -103,11 +103,13 @@ p {
     display: block;
     width: 100%;
 }
-#showcase .content:not(img){
+#showcase .content{
     filter: blur(0px)
     z-index: 1;
     /* color:#fff; */
     color:#455A64;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 #showcase h1{
@@ -118,7 +120,7 @@ p {
 
 #showcase p {
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
     padding-top: 0;
 }
 
@@ -262,6 +264,10 @@ iframe :hover {
 }
 .social a:hover{
     color: #ECEFF1;
+}
+.burger{
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 

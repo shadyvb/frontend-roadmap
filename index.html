@@ -16,17 +16,24 @@
 
   <body>
       <!-- MOBILE COLLAPSE -->
+        <div class="burger">
             <div class="left-align">
-              <a href="#" data-activates="mobile-demo" class="btn red button-collapse"><i class="material-icons">menu</i></a>
-              <ul class="side-nav" id="mobile-demo">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-              </ul>
+                <a href="#" data-activates="mobile-demo" class="btn-floating btn-large z-depth-3 red button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><div class="user-view">
+                            <div class="background">
+                                <img src="https://source.unsplash.com/cwqG1N1AtI0/300x200">
+                            </div>
+                        </div></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
             </div>
+        </div>
       <!-- FIXED ACTION BUTTON -->
     <div class="fixed-action-btn">
-        <a href="#" class="btn-floating red btn-large hide-on-small-only"><i class="large material-icons">publish</i></a>
+        <a href="#" class="btn-floating red btn-large z-depth-3 hide-on-small-only"><i class="large material-icons">publish</i></a>
       </div>
       
                   
@@ -38,9 +45,10 @@
                 <i class="fas fa-laptop-code fa-5x "></i>
                 <h1>Developer Roadmap</h1>
                 <p>Roadmap to becoming a Web Developer in 2019</p>
+                <!-- <span>#dontmakemethink approach</span> -->
         </div>
         </div>
-
+        <div class="mb"></div>
     </header>
     <section class="intro white">
         <div class="mt"></div>
@@ -72,7 +80,7 @@
                                         <div class="card">
                                                 <div class="card-image">
                                                   <img src="https://source.unsplash.com/tZc3vjPCk-Q">
-                                                  <a href="#frontend" class="tab active btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                  <a href="#frontend" class="tab active btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
                                                 </div>
                                                 <div class="card-content">
                                                         <span class="card-title">Frontend</span>
@@ -86,7 +94,7 @@
                                             <div class="card">
                                                     <div class="card-image">
                                                       <img src="https://source.unsplash.com/pjAH2Ax4uWk">
-                                                      <a href="#backend" class="tab btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                      <a href="#backend" class="tab btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
                                                     </div>
                                                     <div class="card-content">
                                                             <span class="card-title">Backend</span>
@@ -100,7 +108,7 @@
                                                 <div class="card">
                                                         <div class="card-image">
                                                           <img src="https://source.unsplash.com/mcLpPD36-2k">
-                                                          <a href="#devops" class="tab btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                          <a href="#devops" class="tab btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
                                                         </div>
                                                         <div class="card-content">
                                                                 <span class="card-title">DevOps</span>
@@ -156,6 +164,63 @@
                 <p>Basics of JavaScript for frontend.</p>
             </div>
         </div>
+        <h2>CSS Frameworks</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col l3 s12"> <!-- card start -->
+                        <div class="card">
+                                <a href="https://www.youtube.com/watch?v=5GcQtLDGXy8" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                <div class="card-stacked">
+                                  <div class="card-content">
+                                    <p>Bootstrap is a free and open-source front-end Web framework.</p>
+                                  </div>
+                                  <div class="card-action">
+                                    <a href="https://getbootstrap.com" target="_blank" class="mybtn grey-text text-darken-1">Bootstrap</a>
+                                  </div>
+                                </div>
+                              </div>
+                </div><!-- card end -->
+                <div class="col l3 s12"> <!-- card start -->
+                    <div class="card">
+                            <a href="https://www.youtube.com/watch?v=nqT8c5OFjEQ" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            <div class="card-stacked">
+                              <div class="card-content">
+                                <p>A modern responsive front-end framework based on Material Design.</p>
+                              </div>
+                              <div class="card-action">
+                                <a href="https://materializecss.com" target="_blank" class="mybtn grey-text text-darken-1">Materialize</a>
+                              </div>
+                            </div>
+                          </div>
+            </div><!-- card end -->
+            <div class="col l3 s12"> <!-- card start -->
+                <div class="card">
+                        <a href="https://www.youtube.com/watch?v=IiPQYQT2-wg" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                        <div class="card-stacked">
+                          <div class="card-content">
+                            <p>Bulma is a free, open source CSS framework based on Flexbox.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="https://bulma.io/" target="_blank" class="mybtn grey-text text-darken-1">Bulma</a>
+                          </div>
+                        </div>
+                      </div>
+        </div><!-- card end -->
+        <div class="col l3 s12"> <!-- card start -->
+            <div class="card">
+                    <a href="https://www.youtube.com/watch?v=a9mUH1EWp40" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p>Semantic is a development framework that helps create beautiful.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="https://semantic-ui.com/" target="_blank" class="mybtn grey-text text-darken-1">Semantic UI</a>
+                      </div>
+                    </div>
+                  </div>
+    </div><!-- card end -->
+            </div>
+        </div>
     
     <div class="mb2"></div>  
 </section><!-- frontend section end -->
@@ -170,7 +235,7 @@
                         <div class="card-image">
                             <img src="https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg">
                             
-                            <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                         </div>
                         <div class="card-content">
                                 <span class="card-title">Crash Course For Absolute Beginners</span>
@@ -182,7 +247,7 @@
                     <div class="card">
                         <div class="card-image">
                             <img src="https://img.youtube.com/vi/Y1BlT4_c_SU/maxresdefault.jpg">
-                            <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                         </div>
                         <div class="card-content">
                                 <span class="card-title">Tutorials For Beginners</span>
@@ -194,7 +259,7 @@
                     <div class="card">
                         <div class="card-image">
                             <img src="https://img.youtube.com/vi/DPnqb74Smug/maxresdefault.jpg">
-                            <a href="https://www.youtube.com/watch?v=DPnqb74Smug" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            <a href="https://www.youtube.com/watch?v=DPnqb74Smug" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                         </div>
                         <div class="card-content">
                                 <span class="card-title">full course with code samples</span>
@@ -218,7 +283,7 @@
                     <div class="card">
                         <div class="card-image">
                             <img src="https://img.youtube.com/vi/yfoY53QXEnI/maxresdefault.jpg">
-                            <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                         </div>
                         <div class="card-content">
                             <span class="card-title">CSS Crash Course For Absolute Beginners</span>
@@ -231,7 +296,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://img.youtube.com/vi/H4UtKu11yXg/maxresdefault.jpg">
-                                <a href="https://www.youtube.com/watch?v=H4UtKu11yXg" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                <a href="https://www.youtube.com/watch?v=H4UtKu11yXg" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Simple Explanation Of rem & em CSS Units</span>
@@ -244,7 +309,7 @@
                             <div class="card">
                                 <div class="card-image">
                                     <img src="https://img.youtube.com/vi/zHUpx90NerM/maxresdefault.jpg">
-                                    <a href="https://www.youtube.com/watch?v=zHUpx90NerM" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    <a href="https://www.youtube.com/watch?v=zHUpx90NerM" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">CSS3 Animation & Transitions Crash Course</span>
@@ -257,7 +322,7 @@
                                 <div class="card">
                                     <div class="card-image">
                                         <img src="https://img.youtube.com/vi/sQUB039MG0I/maxresdefault.jpg">
-                                        <a href="https://www.youtube.com/watch?v=sQUB039MG0I" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                        <a href="https://www.youtube.com/watch?v=sQUB039MG0I" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">CSS Variables Tutorial</span>
@@ -270,7 +335,7 @@
                                 <div class="card">
                                     <div class="card-image">
                                         <img src="https://img.youtube.com/vi/JJSoEo8JSnc/maxresdefault.jpg">
-                                        <a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                        <a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Flexbox CSS In 20 Minutes</span>
@@ -283,7 +348,7 @@
                                 <div class="card">
                                     <div class="card-image">
                                         <img src="https://img.youtube.com/vi/jV8B24rSN5o/maxresdefault.jpg">
-                                        <a href="https://www.youtube.com/watch?v=jV8B24rSN5o" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                        <a href="https://www.youtube.com/watch?v=jV8B24rSN5o" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">CSS Grid Layout Crash Course</span>
@@ -296,7 +361,7 @@
                                 <div class="card">
                                     <div class="card-image">
                                         <img src="https://img.youtube.com/vi/4Av7ma4v46Y/maxresdefault.jpg">
-                                        <a href="https://www.youtube.com/watch?v=4Av7ma4v46Y" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                        <a href="https://www.youtube.com/watch?v=4Av7ma4v46Y" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">Using CSS Media Queries To Create Responsive Web Layouts</span>
@@ -309,7 +374,7 @@
                                 <div class="card">
                                     <div class="card-image">
                                         <img src="https://img.youtube.com/vi/I9XRrlOOazo/maxresdefault.jpg">
-                                        <a href="https://www.youtube.com/watch?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                        <a href="https://www.youtube.com/watch?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                     </div>
                                     <div class="card-content">
                                         <span class="card-title">CSS Tutorials For Beginners</span>
@@ -335,7 +400,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://img.youtube.com/vi/W6NZfCO5SIk/maxresdefault.jpg">
-                                <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">JavaScript Tutorial for Beginners | Mosh</span>
@@ -347,7 +412,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://img.youtube.com/vi/UOeofWla8mE/maxresdefault.jpg">
-                                <a href="https://www.youtube.com/watch?v=UOeofWla8mE" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                <a href="https://www.youtube.com/watch?v=UOeofWla8mE" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Beginner's Guide to JavaScript</span>
@@ -359,7 +424,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <img src="https://img.youtube.com/vi/qoSksQ4s_hg/maxresdefault.jpg">
-                                <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" target="_blank" class="btn-floating btn-large halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">JavaScript Tutorials for Beginners</span>
@@ -421,10 +486,10 @@
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text left-align">Links</h5>
               <ul class="left-align">
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Services</a></li>
+                <!-- <li><a class="grey-text text-lighten-3" href="#!"></a></li> -->
               </ul>
             </div>
           </div>
@@ -443,7 +508,7 @@
         
         <div class="footer-copyright">
           <div class="container">
-          © 2014 Copyright Text
+          Clave © 2019 Copyright
           
           <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
           </div>
