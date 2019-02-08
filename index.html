@@ -1,147 +1,451 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Developer Roadmap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
     <meta name="keywords" content="frontend, roadmap, learning, html, css, js, javascript">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>Developer Roadmap</title>
     <link rel="icon" href="favicon.ico" sizes="16x16">
-    <script src="main.js"></script>
-</head>
-<body>
-    <!-- header -->
-    <header id="showcase">
+  </head>
+
+  <body>
+      <!-- FIXED ACTION BUTTON -->
+    <div class="fixed-action-btn">
+        <a href="#" class="btn-floating red btn-large hide-on-small-only"><i class="large material-icons">publish</i></a>
+      </div>
+      
+                  
+<!-- header -->
+<header id="showcase">
         <!-- showcase Section -->
         <div class="section-main container"></div>
-                <div class="img"></div>
             <div class="content">
-                <i class="fas fa-laptop-code fa-4x "></i>
+                <i class="fas fa-laptop-code fa-5x "></i>
                 <h1>Developer Roadmap</h1>
                 <p>Roadmap to becoming a Web Developer in 2019</p>
         </div>
         </div>
 
     </header>
-    <div id="backtotop">
-        <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
-    </div>
-    
-    <!-- course boxes Section -->
-    <section id="info" class="course section">
-        <div class="container ">
-                <!-- <h1>Front-End</h1>  -->
-            <div class="container grid-3">
-                <div class="box1">
-                    <h3>
-
-                        <i class="fab fa-html5 fa-4x"></i>
-                    </h3>
-                    <!-- <h3>HTML</h3> -->
-                    <a href="#html" class="btn btn-primary"> HTML</a>
-                    <p>Learn how to Markup Web pages.</p>
-                    
-                </div>
-                <div class="box2"> 
-                    <h3>
-
-                        <i class="fab fa-css3 fa-4x"></i>
-                    </h3>
-                    <!-- <h3>CSS</h3> -->
-                    <li><a href="#css" class="btn btn-primary"> CSS</a></li>
-                    <p>Learn how to use CSS3 to Style HTML. </p>
-                </div>
-                <div class="box3">
-                    <h3>
-
-                        <i class="fab fa-js fa-4x"></i>
-                    </h3>
-                    <!-- <h3>JavaScript</h3> -->
-                    <a href="#js" class="btn btn-primary"> JavaScript</a>
-                    <p>All Basics of JavaScript for frontend.</p>
+    <section class="intro white">
+        <div class="mt"></div>
+        <div class="row">
+            <div class="col l4 s12">
+                <div class="container">
+                    <h5 class="mb2">*Required for any path*</h5>
+                    <div class="collection">
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Basic Terminal</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Data Structures & Algrithms</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">SOLID, KISS, YAGNI</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">GitHub</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Licenes</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Semantic Versioning</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">SSH</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">HTTP/HTTPS and APIs</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Design Patterns</a>
+                        <a class="grey-text text-darken-3 collection-item" href="#!">Chatacter Encoddings</a>
+                    </div>
                 </div>
             </div>
+            <div class="col l8 s12">
+                <h5>Choose your path</h5>
+                <section>
+                    <div class="_container">
+                        <div class="row">
+                            <div class="col l4 12">
+                                <div class="card">
+                                        <div class="card">
+                                                <div class="card-image">
+                                                  <img src="https://source.unsplash.com/qWwpHwip31M">
+                                                  <a href="#frontend" class="tab active btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                </div>
+                                                <div class="card-content">
+                                                        <span class="card-title">Frontend</span>
+                                                  <p class="hide-on-small-only">Front-end web development is the practice of converting data to graphical interface for user to view and interact with data through digital interaction using HTML, CSS and JavaScript.</p>
+                                                </div>
+                                              </div>
+                                </div>
+                            </div>
+                            <div class="col l4 s12">
+                                    <div class="card">
+                                            <div class="card">
+                                                    <div class="card-image">
+                                                      <img src="https://source.unsplash.com/1DRq1ZsE2N0">
+                                                      <a href="#backend" class="tab btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                    </div>
+                                                    <div class="card-content">
+                                                            <span class="card-title">Backend</span>
+                                                      <p class="hide-on-small-only">In software engineering, the terms front end and back end refer to the separation of concerns between the presentation layer, and the data access layer of a piece of software, or the physical infrastructure or hardware.</p>
+                                                    </div>
+                                                  </div>
+                                    </div>
+                                </div>
+                                <div class="col l4 s12">
+                                        <div class="card">
+                                                <div class="card">
+                                                        <div class="card-image">
+                                                          <img src="https://source.unsplash.com/pgdaAwf6IJg">
+                                                          <a href="#devops" class="tab btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
+                                                        </div>
+                                                        <div class="card-content">
+                                                                <span class="card-title">DevOps</span>
+                                                          <p class="hide-on-small-only">DevOps is a software development methodology that combines software development with information technology operations to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.</p>
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                
+            </div>
         </div>
+    </section>    <!-- inro -->
+
+    <!-- frontend Section start-->
+    
+    <section id="frontend" class="course section">
+            
+            
+                    
+            <!-- <h1>Front-End</h1>  -->
+            <h2>Frontend Development</h2>
+            <div class="mycontainer grid-3">
+            <div class="box1">
+                <h3>
+
+                    <i class="fab fa-html5 fa-2x"></i>
+                </h3>
+                <!-- <h3>HTML</h3> -->
+                <a href="#html" class="mybtn"> HTML</a>
+                <p>Learn how to Markup Web pages.</p>
+                
+            </div>
+            <div class="box2"> 
+                <h3>
+
+                    <i class="fab fa-css3 fa-2x"></i>
+                </h3>
+                <!-- <h3>CSS</h3> -->
+                <a href="#css" class="mybtn"> CSS</a>
+                <p>Learn how to use CSS3 to Style HTML. </p>
+            </div>
+            <div class="box3">
+                <h3>
+
+                    <i class="fab fa-js fa-2x"></i>
+                </h3>
+                <!-- <h3>JavaScript</h3> -->
+                <a href="#js" class="mybtn"> JavaScript</a>
+                <p>Basics of JavaScript for frontend.</p>
+            </div>
+        </div>
+    
+    <div class="mb2"></div>  
+</section><!-- frontend section end -->
+<!-- HTML Section -->
+<section id="html" class="section">
+        <h3><i class="fab fa-html5"></i> HTML</h3>
+        <div class="container">
+
+            <div class="row"><!-- cards start -->
+                <div class="col s12 m4"><!-- card start -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://img.youtube.com/vi/UB1O30fR-EE/maxresdefault.jpg">
+                            
+                            <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                        </div>
+                        <div class="card-content">
+                                <span class="card-title">Crash Course For Absolute Beginners</span>
+                            <p>Video By:Traversy Media </p>
+                        </div>
+                    </div>
+                </div><!-- card end -->
+                <div class="col s12 m4"><!-- card start -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://img.youtube.com/vi/Y1BlT4_c_SU/maxresdefault.jpg">
+                            <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                        </div>
+                        <div class="card-content">
+                                <span class="card-title">Tutorials For Beginners</span>
+                            <p>Playlist By: The Net Ninja</p>
+                        </div>
+                    </div>
+                </div><!-- card end -->
+                <div class="col s12 m4"><!-- card start -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://img.youtube.com/vi/DPnqb74Smug/maxresdefault.jpg">
+                            <a href="https://www.youtube.com/watch?v=DPnqb74Smug" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                        </div>
+                        <div class="card-content">
+                                <span class="card-title">full course with code samples</span>
+                            <p>Video By:freeCodeCamp.org</p>
+                        </div>
+                    </div>
+                </div><!-- card end -->
+                
+            </div><!-- cards end -->
+        </div>
+            
         <div class="mb2"></div>
-    </section>
-    <!-- HTML Section -->
-    <section id="html" class="section">
-        <h1><i class="fab fa-html5"></i> HTML</h1>
+    </section> <!-- html section end here -->
+ <!-- CSS Section -->
+ <section id="css" class="section">
+        <h3><i class="fab fa-css3"></i> CSS</h3>
+        <div class="container"> 
 
-        <h3>HTML Crash Course For Absolute Beginners</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="row"><!-- cards start -->
+                <div class="col s12 m4"><!-- card start -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://img.youtube.com/vi/yfoY53QXEnI/maxresdefault.jpg">
+                            <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">CSS Crash Course For Absolute Beginners</span>
+                            <p>Video By:Traversy Media</p>
+                        </div>
+                    </div>
+                </div><!-- card end -->
+                
+                    <div class="col s12 m4"><!-- card start -->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://img.youtube.com/vi/H4UtKu11yXg/maxresdefault.jpg">
+                                <a href="https://www.youtube.com/watch?v=H4UtKu11yXg" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Simple Explanation Of rem & em CSS Units</span>
+                                <p>Video By:Traversy Media</p>
+                            </div>
+                        </div>
+                    </div><!-- card end -->
+                    
+                        <div class="col s12 m4"><!-- card start -->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://img.youtube.com/vi/zHUpx90NerM/maxresdefault.jpg">
+                                    <a href="https://www.youtube.com/watch?v=zHUpx90NerM" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">CSS3 Animation & Transitions Crash Course</span>
+                                    <p>Video By:Traversy Media</p>
+                                </div>
+                            </div>
+                        </div><!-- card end -->
+                        
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://img.youtube.com/vi/sQUB039MG0I/maxresdefault.jpg">
+                                        <a href="https://www.youtube.com/watch?v=sQUB039MG0I" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">CSS Variables Tutorial</span>
+                                        <p>Video By:Traversy Media</p>
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
 
-        <h3>HTML Tutorials For Beginners</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PL4cUxeGkcC9ibZ2TSBaGGNrgh4ZgYE6Cc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://img.youtube.com/vi/JJSoEo8JSnc/maxresdefault.jpg">
+                                        <a href="https://www.youtube.com/watch?v=JJSoEo8JSnc" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">Flexbox CSS In 20 Minutes</span>
+                                        <p>Video By:Traversy Media</p>
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
 
-        <h3>Learn HTML5 - full course with code samples</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DPnqb74Smug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://img.youtube.com/vi/jV8B24rSN5o/maxresdefault.jpg">
+                                        <a href="https://www.youtube.com/watch?v=jV8B24rSN5o" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">CSS Grid Layout Crash Course</span>
+                                        <p>Video By:Traversy Media</p>
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
 
-        <div class="mb2"></div>
-    </section>   
-    
-    
-    
-    <!-- CSS Section -->
-    <section id="css" class="section">
-        <h1><i class="fab fa-css3"></i> CSS</h1>
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://img.youtube.com/vi/4Av7ma4v46Y/maxresdefault.jpg">
+                                        <a href="https://www.youtube.com/watch?v=4Av7ma4v46Y" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">Using CSS Media Queries To Create Responsive Web Layouts</span>
+                                        <p>Video By:Traversy Media</p>
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
 
-        <h3>CSS Crash Course For Absolute Beginners</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>Simple Explanation Of rem & em CSS Units</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/H4UtKu11yXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>CSS3 Animation & Transitions Crash Course</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zHUpx90NerM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>CSS Variables Tutorial (CSS Custom Properties)</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sQUB039MG0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>Flexbox CSS In 20 Minutes</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JJSoEo8JSnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>CSS Grid Layout Crash Course</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jV8B24rSN5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>Using CSS Media Queries To Create Responsive Web Layouts</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/4Av7ma4v46Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        <h3>CSS Tutorials For Beginners</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        
-        
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://img.youtube.com/vi/I9XRrlOOazo/maxresdefault.jpg">
+                                        <a href="https://www.youtube.com/watch?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">CSS Tutorials For Beginners</span>
+                                        <p>Playlist By:The Net Ninja</p>
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
+                
+                
+                
+            </div> <!--cards end here-->
+        </div> <!-- CSS Section end here-->
         <div class="mb2"></div>
     </section>    
 
-    <!-- js Section -->
+    <!-- js Section start here -->
     <section id="js" class="section">
-        <h1><i class="fab fa-js"></i> JavaScript</h1>
+            <h1><i class="fab fa-js"></i> JavaScript</h1>
+            <div class="container">
 
-        <h3>JavaScript Tutorial for Beginners | Mosh</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="row"><!-- cards start -->
+                    <div class="col s12 m4"><!-- card start -->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://img.youtube.com/vi/W6NZfCO5SIk/maxresdefault.jpg">
+                                <a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">JavaScript Tutorial for Beginners | Mosh</span>
+                                <p>Video By:Mosh</p>
+                            </div>
+                        </div>
+                    </div><!-- card end -->
+                    <div class="col s12 m4"><!-- card start -->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://img.youtube.com/vi/UOeofWla8mE/maxresdefault.jpg">
+                                <a href="https://www.youtube.com/watch?v=UOeofWla8mE" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Beginner's Guide to JavaScript</span>
+                                <p>Video By:Mosh</p>
+                            </div>
+                        </div>
+                    </div><!-- card end -->
+                    <div class="col s12 m4"><!-- card start -->
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="https://img.youtube.com/vi/qoSksQ4s_hg/maxresdefault.jpg">
+                                <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">JavaScript Tutorials for Beginners</span>
+                                <p>Playlist By:The Net Ninja</p>
+                            </div>
+                        </div>
+                    </div><!-- card end -->
+                    
+                    
+                </div> <!--cards end here-->
+            </div>
+    
+            <div class="mb2"></div>
+            </section>     <!-- js Section end here -->
+
+    
 
 
-        <h3>Beginner's Guide to JavaScript</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UOeofWla8mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h3>JavaScript Tutorials for Beginners</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class="mb2"></div>
-        </section>    
 
 
-    <!-- footer -->
-    <footer>
-        <p class="footer">Copyright &copf; 2019 Clave </p>
-    </footer>
-    <script
-        src="http://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-    </script>
-</body>
+
+
+
+
+    <!-- backend Section start-->
+    <section id="backend" class="course section">
+            <!-- <h3>Back-end Roadmap</h3>  -->
+            <img class="responsive-img "  src="https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/images/backend.png">
+            
+            
+    
+    <div class="mb2"></div>
+</section><!-- backend Section end -->
+
+<!-- devops Section start-->
+<section id="devops" class="course section">
+        <!-- <h3>DevOps Roadmap</h3>  -->
+        <img class="responsive-img" src="https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/images/devops.png">
+        
+        
+        
+
+<div class="mb2"></div>
+</section><!-- backend Section end -->
+
+
+
+
+
+
+<!-- footer -->
+<footer class="page-footer grey darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text left-align">Developer Roadmap</h5>
+              <p class="grey-text text-lighten-4 left-align">Roadmap to becoming a Web Developer in 2019.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text left-align">Links</h5>
+              <ul class="left-align">
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="social row">
+                <div class="col s12 l12">
+                    <a href="#"><i class="fab fa-facebook-square"></i> </a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> </a>
+                    <a href="#"><i class="fab fa-google-plus-square"></i> </a>
+                    <a href="https://github.com/shadyvb/frontend-roadmap"><i class="fab fa-github-square"></i> </a>
+                    <a href="https://codepen.io/m-osama/"><i class="fab fa-codepen"></i> </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          
+          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+          </div>
+        </div>
+      </footer>
+          
+    <!-- Compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+
+  </body>
 </html>
+      
