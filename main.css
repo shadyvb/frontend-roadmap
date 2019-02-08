@@ -256,8 +256,8 @@ iframe :hover {
 
 .social a{
     color: #ccc;
-    padding-right: 3rem;
-    font-size: 3rem;
+    padding-right: 2rem;
+    font-size: 2rem;
     transition: color 300ms ease-in-out;
 }
 .social a:hover{
