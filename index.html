@@ -18,7 +18,7 @@
       <!-- MOBILE COLLAPSE -->
         <div class="burger">
             <div class="left-align">
-                <a href="#" data-activates="mobile-demo" class="btn-floating btn-large z-depth-3 red button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#" data-activates="mobile-demo" class="btn-floating btn-large z-depth-3 red button-collapse"><i class="material-icons hide-on-large-only">fingerprint</i><i class="material-icons hide-on-med-and-down">menu</i></a>
                 <ul class="side-nav" id="mobile-demo">
                     <li><div class="user-view">
                             <div class="background">
@@ -77,7 +77,7 @@
                         <div class="row">
                             <div class="col l4 12">
                                 <div class="card">
-                                        <div class="card">
+                                        <div class="card z-depth-3">
                                                 <div class="card-image">
                                                   <img src="https://source.unsplash.com/tZc3vjPCk-Q">
                                                   <a href="#frontend" class="tab active btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
@@ -91,7 +91,7 @@
                             </div>
                             <div class="col l4 s12">
                                     <div class="card">
-                                            <div class="card">
+                                            <div class="card z-depth-3">
                                                     <div class="card-image">
                                                       <img src="https://source.unsplash.com/pjAH2Ax4uWk">
                                                       <a href="#backend" class="tab btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="col l4 s12">
                                         <div class="card">
-                                                <div class="card">
+                                                <div class="card z-depth-3">
                                                         <div class="card-image">
                                                           <img src="https://source.unsplash.com/mcLpPD36-2k">
                                                           <a href="#devops" class="tab btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">arrow_downward</i></a>
@@ -382,7 +382,20 @@
                                     </div>
                                 </div>
                             </div><!-- card end -->
-                
+
+                            
+                            <div class="col s12 m4"><!-- card start -->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./img/cssclip.png">
+                                        <a href="https://bennettfeely.com/clippy" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">insert_link</i></a>
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">CSS clip-path maker</span>
+                                        <!-- <p>Playlist By:The Net Ninja</p> -->
+                                    </div>
+                                </div>
+                            </div><!-- card end -->
                 
                 
             </div> <!--cards end here-->
@@ -497,11 +510,11 @@
         <div class="container">
             <div class="social row">
                 <div class="col s12 l12">
-                    <a href="#"><i class="fab fa-facebook-square"></i> </a>
-                    <a href="#"><i class="fab fa-twitter-square"></i> </a>
-                    <a href="#"><i class="fab fa-google-plus-square"></i> </a>
-                    <a href="https://github.com/shadyvb/frontend-roadmap"><i class="fab fa-github-square"></i> </a>
-                    <a href="https://codepen.io/m-osama/"><i class="fab fa-codepen"></i> </a>
+                    <a href="#" class="tooltipped" data-position="top" data-tooltip="facebook"><i class="fab fa-facebook-square"></i> </a>
+                    <a href="#" class="tooltipped" data-position="top" data-tooltip="twitter"><i class="fab fa-twitter-square"></i> </a>
+                    <a href="#" class="tooltipped" data-position="top" data-tooltip="google+"><i class="fab fa-google-plus-square"></i> </a>
+                    <a href="https://github.com/shadyvb/frontend-roadmap" class="tooltipped" data-position="top" data-tooltip="github"><i class="fab fa-github-square"></i> </a>
+                    <a href="https://codepen.io/m-osama/" class="tooltipped" data-position="top" data-tooltip="codepen"><i class="fab fa-codepen"></i> </a>
                 </div>
             </div>
         </div>
