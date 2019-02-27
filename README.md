@@ -2,4 +2,4 @@
 Frontend learning roadmap, #dontmakemethink approach
 
 # link
-http://frontendroadmap.surge.sh
+http://roadmap.mosama.me
