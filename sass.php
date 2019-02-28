@@ -85,7 +85,7 @@ include './header.php';
                             <div class="card">
                                 <div class="card-image">
                                     <img src="https://img.youtube.com/vi/fbVD32w1oTo/maxresdefault.jpg">
-                                    <a href="https://www.youtube.com/watch?list=PL2CB1F80266E986EA" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                    <a href="https://www.youtube.com/playlist?list=PL2CB1F80266E986EA" target="_blank" class="btn-floating btn-large z-depth-3 halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
                                 </div>
                                 <div class="card-content">
                                     <span class="card-title">Sass Tutorials</span>
