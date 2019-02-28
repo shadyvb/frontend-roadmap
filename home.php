@@ -129,3 +129,17 @@
 
 <div class="mb2"></div>  
 </section><!-- frontend section end -->
+
+<section id="talks">
+
+        <!-- showcase Section -->
+        <div class="space"></div>
+        <div class="section-main container">
+            <div class="content">
+                <i class="fas fa-microphone-alt fa-5x"></i>
+                <h1>Frontend Talks</h1>
+                <a href="./talks.php" class="mybtn"> Talks</a>
+            </div>
+        </div>
+        <div class="space"></div>
+   </section>

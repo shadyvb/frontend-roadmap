@@ -34,6 +34,7 @@ include './header.php';
             </div>
             
         </div>
+        <div class="space"></div>
     </section>
 
     <?php
