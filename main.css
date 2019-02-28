@@ -158,6 +158,20 @@ p {
     background-color: #086EB3;
     /* color: #fff; */
 }
+
+#sass {
+    background-color: #CFD8DC;
+    /* color: #fff; */
+}
+#sass h3 {
+    color: #CB6998;
+}
+#sass .logo {
+    width: 150px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
 #js {
     background-color: #F0D81D;
     color: #000;
@@ -271,5 +285,14 @@ iframe :hover {
 }
 
 
+.space{
+    margin-bottom: 10vh;
+}
+.border{
+    border: 1px solid;
+    border-color: #ECEFF1;
+}
 
-
+.arch{
+    background-color: #ECEFF1;
+}
