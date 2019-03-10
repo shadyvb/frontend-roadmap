@@ -97,29 +97,20 @@
         <h2>Frontend Development</h2>
         <div class="mycontainer grid-3">
         <div class="box1">
-            <h3>
-
-                <i class="fab fa-html5 fa-2x"></i>
-            </h3>
+            <h3><i class="fab fa-html5 fa-2x"></i></h3>
             <!-- <h3>HTML</h3> -->
             <a href="./html.php" class="mybtn"> HTML</a>
             <p>Learn how to Markup Web pages.</p>
             
         </div>
         <div class="box2"> 
-            <h3>
-
-                <i class="fab fa-css3 fa-2x"></i>
-            </h3>
+            <h3><i class="fab fa-css3 fa-2x"></i></h3>
             <!-- <h3>CSS</h3> -->
             <a href="./css.php" class="mybtn"> CSS</a>
             <p>Learn how to use CSS3 to Style HTML. </p>
         </div>
         <div class="box3">
-            <h3>
-
-                <i class="fab fa-js fa-2x"></i>
-            </h3>
+            <h3><i class="fab fa-js fa-2x"></i></h3>
             <!-- <h3>JavaScript</h3> -->
             <a href="./js.php" class="mybtn"> JavaScript</a>
             <p>Basics of JavaScript for frontend.</p>

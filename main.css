@@ -28,7 +28,7 @@ body {
 .grid-3 {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .box1 { 
     border: #B0BEC5 1px ;
@@ -299,3 +299,14 @@ iframe :hover {
 #talks{
     background-color:#fff;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .grid-3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+  }
