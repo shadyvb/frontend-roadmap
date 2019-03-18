@@ -76,7 +76,7 @@ include './header.php';
             
                 <div class="container">
                     <h4 class="left">Framework</h4>
-                    <a href="./react.html"  class="mybtn right mt"><i class="fab fa-react"></i> React.js</a>
+                    <a href="./react.php"  class="mybtn right mt"><i class="fab fa-react"></i> React.js</a>
                     <!-- <button class="mybtn right mt">sass</button> -->
                 </div>
         </div>
